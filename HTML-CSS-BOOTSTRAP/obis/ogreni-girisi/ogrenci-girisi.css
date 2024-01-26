@@ -1,0 +1,43 @@
+body{
+  height: 10000px;
+  margin:0;
+}
+.list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(78, 138, 178);
+  font-size: 15px;
+  font-family:Roboto,Arial;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+.list li {
+  float: left;
+  border-right:2px solid rgb(239, 234, 234);
+}
+.list li:last-child{
+  background-color: rgb(29, 96, 141);
+  border-right: none;
+  float: right;
+}
+
+.list li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.list li a:hover{
+    opacity: 0.8;
+    background-color: rgb(125, 170, 199);
+    transition: 0.3s;
+}
+.list li a:active{
+    opacity: 0.5;
+    color: rgb(0, 0, 0);
+}

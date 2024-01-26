@@ -1,0 +1,116 @@
+body{
+  background-color: rgb(208, 208, 203);
+  background-image: url("1.png");
+  
+  
+}
+* {
+  box-sizing: border-box;
+
+}
+
+  .ogrenci-girisi-buton{
+    font-size: 25px;
+    font-family:Roboto,Arial;
+    text-align:left;
+    color: #ffffff;
+    border: 2px solid rgb(146, 136, 136);
+    border-radius: 5px;
+    background-color: rgb(78, 138, 178);
+    margin-top: 100px;
+    width: 300px;
+    cursor: pointer;
+    height:75px
+    
+    
+    
+  }
+  .ogrenci-girisi-buton:hover,.üni-anasayfa-buton:hover,.ogretmen-girisi-buton:hover,.admin-girisi-buton:hover{
+    opacity: 0.8;
+    border-color:white;
+    transition: 0.3s;
+  }
+  .ogrenci-girisi-buton:active,.ogretmen-girisi-buton:active,.admin-girisi-buton:active,.üni-anasayfa-buton:active{
+    opacity: 0.5;
+    color: rgb(0, 0, 0);  
+  }
+  .ogrenci-girisi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    position: relative;
+  }
+  .ogretmen-girisi-buton{
+    font-size: 25px;
+    font-family:Roboto,Arial;
+    text-align: left;
+    color: #ffffff;
+    border: 2px solid rgb(146, 136, 136);
+    border-radius: 5px;
+    background-color: rgb(78, 138, 178);
+    width: 300px;
+    cursor: pointer;
+    height:75px
+    
+  } 
+  .ogretmen-girisi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .logo{
+    font-size: 100px;
+    font-family:BourgeoisW00-Bold,Arial; 
+    text-align: center;
+    margin: 0;
+    
+
+  }
+  .admin-girisi-buton{
+    font-size: 25px;
+    font-family:Roboto,Arial;
+    text-align: left;
+    color: #ffffff;
+    border: 2px solid rgb(146, 136, 136);
+    border-radius: 5px;
+    background-color: rgb(78, 138, 178);
+    width: 300px;
+    cursor: pointer;
+    height:75px
+  }
+  .admin-girisi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .header {
+    padding: 15px 0;
+  }
+  .üni-anasayfa-buton{
+    font-size: 15px;
+    font-family:Roboto,Arial;
+    color: #ffffff;
+    border: 2px solid rgb(146, 136, 136);
+    border-radius: 5px;
+    background-color: rgb(78, 138, 178);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    cursor: pointer;
+    margin:0px;
+  }
+  .üni-logo{
+    width: 1013px;
+    height: 286px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+      
+  }
+  .text{
+    margin-right:-70px;
+  }
+  
